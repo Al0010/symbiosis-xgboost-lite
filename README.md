@@ -51,10 +51,10 @@ symbiosis-xgboost-lite/
 
 ### 1. Feature Engineering (`core/features.py`)
 Standardized around 4 high-signal predictive features designed to prevent model overfitting while capturing momentum, liquidity, and volatility regimes:
-*   \text{dist\_ema\_pct}: Percentage distance from the 20-period Exponential Moving Average.
-*   \text{close\_location}: Relative position of the close within the high-low bar range.
-*   \text{volume\_ratio}: Short-term volume liquidity relative to the 20-period moving average.
-*   \text{std\_vol}: Standard deviation of percentage returns over 20 periods for dynamic risk sizing.
+*   dist_ema_pct: Percentage distance from the 20-period Exponential Moving Average.
+*   close_location: Relative position of the close within the high-low bar range.
+*   volume_ratio: Short-term volume liquidity relative to the 20-period moving average.
+*   std_vol: Standard deviation of percentage returns over 20 periods for dynamic risk sizing.
 
 ### 2. Triple Barrier Labeling (`core/labeling.py`)
 Implements financial labeling based on Marcos López de Prado's Triple Barrier Method, mapping directional outcomes against dynamic volatility thresholds (Take Profit, Stop Loss, and Max Bar expiration).
