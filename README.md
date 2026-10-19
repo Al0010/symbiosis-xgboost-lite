@@ -73,7 +73,7 @@ A zero-external-dependency matrix interpreter written in Pine Script v6. It pars
 
 1. **Clone the Repository & Navigate to Directory**:
    ```bash
-   git clone https://github.com/your-username/symbiosis-xgboost-lite.git
+   git clone https://github.com/Al0010/symbiosis-xgboost-lite.git
    cd symbiosis-xgboost-lite
    ```
 
